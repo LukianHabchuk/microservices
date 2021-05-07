@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/creditmicroservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creditmicroservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customermicroservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customermicroservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmicroservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/productmicroservice/src/main/java" charset="UTF-8" />
+  </component>
+</project>
