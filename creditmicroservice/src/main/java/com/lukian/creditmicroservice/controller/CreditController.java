@@ -1,6 +1,9 @@
 package com.lukian.creditmicroservice.controller;
 
+import com.lukian.creditmicroservice.dto.CreditDTO;
 import com.lukian.creditmicroservice.dto.CreditInfo;
+import com.lukian.creditmicroservice.dto.CustomerDTO;
+import com.lukian.creditmicroservice.dto.ProductDTO;
 import com.lukian.creditmicroservice.entity.Credit;
 import com.lukian.creditmicroservice.service.CreditService;
 import com.lukian.creditmicroservice.service.CustomerService;
@@ -31,7 +34,29 @@ public class CreditController {
     @PostMapping
     public int createCredit(@RequestBody CreditInfo creditInfo) {
         log.info("caught object credit info: " + creditInfo.toString());
-        return createInfoObjects(creditInfo);
+        if (isValid(creditInfo))
+            return createInfoObjects(creditInfo);
+        else {
+            return -1;
+        }
+    }
+
+    private boolean isValid(CreditInfo creditInfo) {
+        return isProductValid(creditInfo.getProduct())
+                && isCustomerValid(creditInfo.getCustomer())
+                && isCreditValid(creditInfo.getCredit());
+    }
+
+    private boolean isProductValid(ProductDTO product) {
+        return !product.getName().isEmpty() && product.getValue()>0;
+    }
+
+    private boolean isCustomerValid(CustomerDTO customer) {
+        return !customer.getSurname().isEmpty() && !customer.getFirstName().isEmpty() && customer.getPesel().length() == 11;
+    }
+
+    private boolean isCreditValid(CreditDTO credit) {
+        return !credit.getName().isEmpty();
     }
 
     @GetMapping

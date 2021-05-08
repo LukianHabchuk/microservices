@@ -9,6 +9,6 @@ import lombok.*;
 @ToString
 public class CustomerDTO {
     private String firstName;
-    private String pesel;
+    private String pesel;//11 sybols
     private String surname;
 }
