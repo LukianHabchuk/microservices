@@ -10,7 +10,7 @@ Prerequisites:
 ### Running the services
 
 1. Clone the repository
-2. Import the project as into your favourite IDE
+2. Import the project into your favourite IDE
 3. Build all modules(productmicroservice, customermicroservice, creditmicroservice)  
    using `./mvnw clean install` (Unix) or `mvnw.cmd clean install` (Windows)  
    or use build-in tools (`clean` and `install`)
