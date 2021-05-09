@@ -258,10 +258,6 @@ K
 J
 creditmicroservice/pom.xml,4\3\437535bb488e1b88eebbe51fd111d3faa21a27a8
 Å
-Qcreditmicroservice/src/main/java/com/lukian/creditmicroservice/dto/CreditDTO.java,e\e\ee60e1a09dd5e5be78501a91fb9211cafd2b1c0d
-Ç
-Rcreditmicroservice/src/main/java/com/lukian/creditmicroservice/dto/CreditInfo.java,d\4\d4ffa286c591ae8fecb669a2761ffc89f51690c3
-Å
 Qcreditmicroservice/src/main/java/com/lukian/creditmicroservice/entity/Credit.java,d\2\d2206840d048ebc611c3e772f038346120742563
 É
 Screditmicroservice/src/main/java/com/lukian/creditmicroservice/entity/Customer.java,4\5\4526eca5cd566845bd4df844e8ae0234bf8054b3
@@ -273,12 +269,6 @@ gcreditmicroservice/src/main/java/com/lukian/creditmicroservice/exception/Custom
 fcreditmicroservice/src/main/java/com/lukian/creditmicroservice/exception/ProductNotFoundException.java,2\d\2d3c42d6853d2669cb4ad88785309814acb91a6b
 è
 _creditmicroservice/src/main/java/com/lukian/creditmicroservice/repository/CreditRepository.java,8\b\8b1c9b63943f8077b4221cad0179d36d7b702cb4
-â
-Ycreditmicroservice/src/main/java/com/lukian/creditmicroservice/service/CreditService.java,f\d\fd0966d3cc3700180509bccea4709f8d12f7b219
-ã
-[creditmicroservice/src/main/java/com/lukian/creditmicroservice/service/CustomerService.java,5\2\5219f2b37a5aac40d42b7f0038ac3e6224fe63ef
-ä
-Zcreditmicroservice/src/main/java/com/lukian/creditmicroservice/service/ProductService.java,a\a\aa58a79f39f898dd0cdaa4aec0c3dad8064a1e98
 ñ
 fcreditmicroservice/src/test/java/com/lukian/creditmicroservice/CreditmicroserviceApplicationTests.java,a\4\a445132dfd9ab02a6bedc9fa18996f0886532b55
 M
@@ -289,3 +279,5 @@ N
 productmicroservice/Dockerfile,7\c\7c97dc66e0aaa31b72ba23064d85590287fafd5b
 8
 k8s.yaml,a\5\a5c7cb3a62d697007b67bce90696d6cbd4aa0fcc
+9
+	Readme.md,0\c\0c1945d7443c2e154bd3e421c0d438bd4086d8c3
