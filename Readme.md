@@ -15,7 +15,7 @@ Prerequisites:
    using `./mvnw clean install` (Unix) or `mvnw.cmd clean install` (Windows)  
    or use build-in tools (`clean` and `install`)
 4. Start Docker engine (Linux) or Docker desktop (Windows or macOS)
-5. Run project with docker using `docker-compose up --build`
+5. Run project with docker using `docker-compose up --build` from the root package
 
 ### Ready to use
 
